@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cheese.component.css']
 })
 export class CheeseComponent implements OnInit {
+ // cheeses: []
 
   constructor() { }
 
