@@ -1,6 +1,12 @@
- <form class="navbar-form navbar-left">
+ <!-- <form class="navbar-form navbar-left">
    <div class="form-group">
      <input type="text" class="form-control" placeholder="Search">
    </div>
    <button type="submit" class="btn btn-primary">Submit</button>
- </form>
+ </form> -->
+
+
+ <h2>Basic Request</h2>
+ <button type="button" class="btn btn-primary" (click)="makeRequest()">Make Request</button>
+ <div *ngIf="loading">loading...</div>
+ <pre>{{data | json}}</pre>

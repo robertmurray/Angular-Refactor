@@ -25,7 +25,7 @@ import { NoteTextAreaComponent } from './favorites/note-text-area/note-text-area
     DisplayComponent,
     FavoritesComponent,
     DisplayFavoritesComponent,
-    NoteTextAreaComponent,
+    NoteTextAreaComponent
   ],
   imports: [
     BrowserModule,
