@@ -1,11 +1,20 @@
-<div class="row">
- <div class="col-md-5">
-  <app-search></app-search>
- </div>
- <div class="col-md-7">
-  <app-search-bar></app-search-bar>
- </div>
- <div class="col-md-7">
-  <app-display></app-display>
- </div>
+<div class="btn-group" dropdown>
+  <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+    Select Cheese By <span class="caret"></span>
+  </button>
+  <ul *dropdownMenu class="dropdown-menu" role="menu">
+    <li role="menuitem"><a class="dropdown-item" href="#">Firmness</a></li>
+    <li role="menuitem"><a class="dropdown-item" href="#">Animal</a></li>
+    <li role="menuitem"><a class="dropdown-item" href="#">Cheese Name</a></li>
+    <li role="menuitem"><a class="dropdown-item" href="#">Substitute</a></li>
+    <li class="divider dropdown-divider"></li>
+    <li role="menuitem"><a class="dropdown-item" href="#">Find In Stores</a>
+    <li role="menuitem"><a class="dropdown-item" href="#">Give Me That Random Cheese!</a>
+    <li role="menuitem"><a class="dropdown-item" href="#">See My Favorites</a>
+    </li>
+  </ul>
 </div>
+<br>
+
+<app-display></app-display>
+<app-search></app-search>
