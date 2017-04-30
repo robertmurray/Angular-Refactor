@@ -14,6 +14,7 @@ export class SearchComponent implements OnInit {
    this.http = http;
  }
 
+// this function should be put into a service and dependency injection should be used to access it.
  makeRequest(): void {
    this.loading = true;
    this.http.request('http://cheeswhiz.herokuapp.com/api/cheese')
